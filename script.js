@@ -1,3 +1,5 @@
+const text = document.getElementById('text')
+
 Questions = [
     "Wonna learn programming?",
     "Wonna play Game?",
@@ -7,4 +9,4 @@ Questions = [
 
 const random_quetion = Questions[Math.floor(Math.random() * Questions.length)]
 
-console.log(random_quetion)
+text.innerHTML = random_quetion;
